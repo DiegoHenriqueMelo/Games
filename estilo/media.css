@@ -1,0 +1,22 @@
+@media screen and (max-width: 1024px){
+    .banner{
+        width: 40%;
+    }
+    .btn-link{
+        padding: 10px;
+    }
+    #banner-game1> .img-2{
+        display: none;
+    }
+}
+@media screen and (max-width: 540px){
+    .banner{
+        width: 90%;
+    }
+    .btn-link{
+        padding: 10px;
+    }
+    #banner-game1> .img-2{
+        display: none;
+    }
+}

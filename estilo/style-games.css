@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    background-color: rgb(5, 5, 54);
+    color: white;
+}
+header{
+    grid-area: header;
+    height: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+header>div>p{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+h1{
+    font-size: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    grid-area: main;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(4, 4, 44);
+    margin: 0% 5%;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+main>div{
+    margin-bottom: 40px;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 25px;
+}
+#banner-game1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+#banner-game1> .img-1{
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+#banner-game1> .img-2{
+    padding: 20px;
+    height: 350px;
+    width: 650px;
+}
+footer{
+    grid-area: footer;    
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.btn-link{
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+}
+.btn-link:hover{
+    transition: .3s;
+    background-color: lightgray;
+}
+#btn-link-control{
+    display: flex;
+    flex-flow: row wrap;
+}
+.btn-banner{
+    padding: 10px;
+    color: #034B90;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+.btn-banner:hover{
+    background-color: #034B90;
+    color: white;
+    transition: .3s;
+}
+.btn-voltar{
+    padding: 10px;
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn-voltar:hover{
+    background-color: red;
+    color: white;
+    transition: .3s;
+}
+#main-termos{
+    margin-bottom: 50vh;
+}
