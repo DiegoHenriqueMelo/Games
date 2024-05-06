@@ -57,7 +57,9 @@ main{
     display: flex;
     flex-flow: column nowrap;
     justify-content: end;
-    align-items: start;
+    /* flex-flow: column nowrap;
+    justify-content: end;
+    align-items: start; */
 }
 .banner:hover{
     transition: 1s;
@@ -67,6 +69,7 @@ section{
     background-image: linear-gradient(to top,black,black,black,black, black, black,transparent);
     color: white;
     height: auto;
+    width: 100%;
     padding: 10px;
     display: flex;
     flex-flow: column nowrap;

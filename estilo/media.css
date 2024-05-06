@@ -20,3 +20,14 @@
         display: none;
     }
 }
+@media screen and (max-height: 610px){
+    section{
+        height: 100%;
+        background-image: linear-gradient(to top,black, black, transparent);
+        
+    }
+    .banner{
+        height: auto;
+        width: 300px;
+    }
+}
